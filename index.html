@@ -48,7 +48,7 @@
         <div class="general__box">
           <div class="general__info">
             <h1 class="general__title">У тебя есть проблема - у нас есть решение!</h1>
-            <button class="btn general__btn">Оставить заявку</button>
+            <button class="btn btn-modal general__btn">Оставить заявку</button>
           </div>
           <div class="general__preview"><img class="general__img" src="images/dist/general-home.png" alt="Помощь в решении проблем"></div>
         </div>
@@ -74,7 +74,7 @@
               <div class="steps__img-box"><span class="steps__num">1 Шаг</span><img class="steps__img" src="images/dist/step-1.png" alt="alt"></div>
               <div class="steps__first">
                 <p class="steps__desc steps__desc_mb">Если Ты не хочешь тратить сотни и даже тысячи евро на консультацию адвоката, нажми здесь и заполни форму.</p>
-                <button class="btn steps__btn">Оставить заявку</button>
+                <button class="btn btn-modal steps__btn">Оставить заявку</button>
               </div>
             </li>
             <li class="steps__item steps__item_reverse">
@@ -102,6 +102,36 @@
           <svg class="social__svg">
             <use xlink:href="images/dist/sprite.svg#fb"></use>
           </svg>Facebook</a>
+      </div>
+      <div class="form">
+        <form class="form__box" action="#" method="post">
+          <div class="form__closed">
+            <svg class="form__svg">
+              <use xlink:href="images/dist/sprite.svg#closed"></use>
+            </svg>
+          </div>
+          <h3 class="form__title">Заполни эту форму и получи ответ в течении трёх дней</h3>
+          <div class="form__item">
+            <input class="form__input" id="name" type="text" name="name" placeholder="Имя, Фамилия">
+          </div>
+          <div class="form__item form__item_fx">
+            <input class="form__input form__input_mr" id="mail" type="email" name="mail" placeholder="Эл.почта">
+            <input class="form__input" id="mail" type="tel" name="tel" placeholder="Номер телефона">
+          </div>
+          <div class="form__item form__item_mb">
+            <textarea class="form__input form__input_h" id="message" name="message" placeholder="Описание проблемы"></textarea>
+          </div>
+          <div class="form__item">
+            <label class="form__item-title">
+              <input class="form__checkbox" id="checkbox" type="checkbox" required><span class="form__text">Согласен с правилами сотрудничества</span>
+            </label>
+            <label class="form__item-title form__item-title_mb">
+              <input class="form__checkbox" id="checkbox" type="checkbox"><span class="form__text">Согласен получать новости по эл.почте</span>
+            </label>
+            <p class="form__note">Мы используем ваши персональные данные, чтобы посредством настоящего веб-сайта информировать вас и лучшим образом представить наши услуги, а именно:</p>
+          </div>
+          <button class="btn form__btn">Оставить заявку</button>
+        </form>
       </div>
     </main>
     <footer class="footer">
